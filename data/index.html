@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      
+        <!-- Modal Structure -->
+  <div id="modalpass" class="modal">
+    <div class="modal-content">
+     <!--<h4 >Enter Passrwod</h4>
+      <div class="input-field"></div>
+      <input id="pass" type="password" class="validate">
+      <label for="pass"></label>-->
+    </div>
+    <div class="modal-footer">
+      <button class="modal-action modal-close btn waves-effect waves-light green" id="confirm_button" type="submit" name="action">Connect
+     </button>
+     
+    </div>
+  </div>
+          
+<!--------main nav bar---------->
+            
+                 
+                    
+<nav class="nav-extended">
+    <div id="navconta" class="container">
+                <div class="nav-wrapper">
+                <a href="#" class="brand-logo">ESP</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="#swipe-1">Control</a></li>
+                             <li><a href="#swipe-2">Wifi</a></li>
+                            <li><a href="#swipe-3">About</a></li>
+                        </ul>
+                                        
+                        </div>
+            </div>
+                    <div class="nav-content">
+                        <ul id="tabs-swipe-demo" class="tabs full-height" >
+                             <li class="tab col s3"><a href="#swipe-1" class="active">Controller</a>   </li>
+                             <li class="tab col s3"><a  href="#swipe-2">WIFI</a></li>
+                            <li class="tab col s3"><a href="#swipe-3">About</a></li>
+                        </ul>
+                    </div>
+
+                        
+</nav>
+        
+                        
+
+                          <ul class="sidenav" id="mobile-demo">
+                            <li><a href="#swipe-1">Control</a></li>
+                            <li><a href="#swipe-2">Wifi</a></li>
+                            <li><a href="#swipe-3">About</a></li>
+                          </ul>
+                        
+                       
+                          <div class="tabs-content ">
+                                    <div id="swipe-1" class="col s12 blue-grey darken-4 white-text ">
+                                     
+
+                                      <div class="container center">
+                                        <div class="row center">
+                                            <div class="col s6 contcenter "><div id="g1" ></div></div>
+                                            
+                                            <div class="col s6 contcenter"><div  id="g3" ></div></div>
+                                     
+                                            <div class="col s12 contcenter"><div id="joystick" ></div></div>
+                            
+                            
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <div id="swipe-2" class="col s12 blue-grey darken-4 white-text">
+                                        <div class="container" >
+                                          <div class="row ">
+                                            <div class="col s12 center-align" >
+                                              <h4>List Wifi</h4>
+
+                                              <!--card-->
+                                          
+
+                                            
+                                              <div class="row">
+                                                <div class="col s12">
+                                                  
+                                                   
+                                                    <div id="accessPoints"></div>
+                                                    
+                                                 
+                                                </div>
+                                              </div>
+                                              <!-- end card-->
+                                            
+                                              
+                                              <!---<a class="waves-effect waves-light btn-large modal-trigger blue" id="butwifi" href="#modalpass"><i class="material-icons right" >wifi</i>SSID</a>--->
+                                              
+                                             <!--- <div id="accessPoints"></div>-->
+                                        
+                                            </div>
+                                          </div>
+                                          
+                                                    
+                                                
+                                        </div>
+                                      </div>
+                                    <div id="swipe-3" class="col s12 blue-grey darken-4 white-text">
+                                      <div class="container center">
+                                        <h3>ESP32RcCar</h3><br>
+                                        <h4>made for fun to have fun</h4><br>
+                                        <h5>tdriouech@mail.com</h5>
+
+                                      </div>
+                                    </div>
+                
+                        </div>
+      
+
+     
+
+     
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      
+
+      <script type="text/javascript" src="js/nipplejs.min.js"></script>
+
+      <script type="text/javascript" src="js/raphael-2.1.4.min.js"></script>
+      <script type="text/javascript" src="js/justgage.js"></script>
+      <script type="text/javascript" src="js/init.js"></script>
+      <script type="text/javascript" src="js/setupwifi.js"></script>
+      <script type="text/javascript" src="js/speedbat.js"></script>
+     
+
+
+      
+      
+
+    </body>
+  </html>

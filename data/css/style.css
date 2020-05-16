@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body  {
+
+  height: 100%
+
+}
+
+
+
+
+.nav-extended{
+
+  background-color: #263238 !important;
+
+
+}
+
+.nav-wrapper {
+ 
+  background-color: #263238 !important;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+}
+
+.contcenter {
+  display: flex;
+  justify-content: center;
+}
+
+
+  
+
+
+  #butwifi{
+width: 100%;
+margin: 5px;
+
+
+  }
+
+  
+
+  .carousel.carousel .carousel-item {
+
+    overflow-y: auto;
+    
+   
+    min-height: 600px;
+   
+  }
+
+
+   
+
+ 
+   
+   .gauge {
+       display: block;
+       float: left;
+   }
+
+   #g1 {
+       width: 50%;
+   }
+
+   #g2 {
+       width: 50%;
+   }
+
+   #g3 {
+       width: 50%;
+   }
+
+  
+  
+.tabs .tab a{
+    color:#00ACC1;
+}
+.tabs .tab a:hover,.tabs .tab a.active {
+	background-color:transparent;
+	color:#008B9B;
+}
+.tabs .tab.disabled a,.tabs .tab.disabled a:hover {
+	color:rgba(102,147,153,0.7);	
+}
+.tabs .indicator {
+	background-color:#009BAD;
+}
+   
